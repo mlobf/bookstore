@@ -2,7 +2,7 @@ from rest_framework import generics
 from rest_framework import mixins
 
 from ebook.models import Ebook
-from ebooks.API.serializers import EbookSerializer
+from ebooks.api.serializers import EbookSerializer
 
 
 class EbookListCreateAPIView(
