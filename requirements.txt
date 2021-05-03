@@ -1,0 +1,4 @@
+django==2.2.18
+black
+ipython 
+djangorestframework
