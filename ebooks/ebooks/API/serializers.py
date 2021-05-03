@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from ebook.models import Ebook, Review
 
+# Just a comment
+
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
