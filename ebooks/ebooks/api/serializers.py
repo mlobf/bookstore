@@ -7,7 +7,7 @@ from ebook.models import Ebook, Review
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = "__all__"
+        exclude = ("ebook",)
 
 
 class EbookSerializer(serializers.ModelSerializer):
